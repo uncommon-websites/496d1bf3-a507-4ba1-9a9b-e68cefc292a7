@@ -45,16 +45,16 @@ const campaignRemixingUseCase: UseCase = {
     description: "Transform and reuse old campaigns into new, channel-ready content."
   },
   hero: {
-    title: "don’t reshoot. reuse.",
+    title: "Your approved videos aren’t done working",
     subtitle:
-      "Turn yesterday’s campaigns into today’s best-performing content—compliant, on-brand, and ready for every channel.",
+      "Don’t let past campaigns collect dust. cQuenced breaks down approved footage into reusable, compliance-tagged segments—so you can spin up fresh campaigns in days, not weeks. Reduce costs and timelines without re-entering the review queue.",
     imageSrc: "/generated/image-a-diverse-group-of-professionals-in-a-mo.webp",
     callsToAction: [
       { href: "/demo", label: "see how it works" }
     ]
   },
   summary: {
-    title: "make every asset work harder",
+    title: "New campaigns. No new production. Fully compliant.",
     text:
       "cQuenced helps marketing, brand, and creative teams tap massive hidden value in existing assets. Instead of starting from scratch, you get fast remixing, regulatory-ready outputs, and built-in approval tracking—so your team can move at the speed of your market."
   },
@@ -117,18 +117,18 @@ const safetyUpdatesUseCase: UseCase = {
     description: "Apply global label, risk or disclosure changes across all video instantly."
   },
   hero: {
-    title: "global safety updates. now faster than your inbox.",
+    title: "Automate compliance. Accelerate approvals.",
     subtitle:
-      "Automatically apply label changes, updated disclosures, or risk language across every video asset—down to the frame.",
+      "Legal hurdles shouldn’t stall a market launch. With segment-level compliance tagging and auto-generated audit trails, cQuenced keeps your MLR workflow moving—automatically.",
     imageSrc: "/generated/image-an-attentive-compliance-officer-in-a-cor.webp",
     callsToAction: [
       { href: "/demo", label: "schedule a demo" }
     ]
   },
   summary: {
-    title: "update once. deploy everywhere.",
+    title: "Built-in governance. Zero bottlenecks. Always audit-ready.",
     text:
-      "Safety update requirements don’t wait for timelines. When claims, labels, or disclosure directives change, most teams scramble to find and fix every instance manually—racking up weeks of edits, reviews, and delays. With cQuenced, safety teams and brand owners can push urgent compliance updates across entire video libraries in minutes and route final cuts automatically to downstream MLR approval. All changes are tracked, time-stamped, and export-ready for review."  
+      "Safety update requirements don’t wait for timelines. When claims, labels, or disclosure directives change, most teams scramble to find and fix every instance manually—racking up weeks of edits, reviews, and delays. With cQuenced, safety teams and brand owners can push urgent compliance updates across entire video libraries in minutes and route final cuts automatically to downstream MLR approval. All changes are tracked, time-stamped, and export-ready for review."
   },
   testimonials: [
     {
@@ -264,15 +264,15 @@ const segmentSearchUseCase: UseCase = {
     description: "Find usable, compliant video clips by claim, storyline or imagery instantly."
   },
   hero: {
-    title: "find the clip you need—instantly",
-    subtitle: "cQuenced uses AI to search, segment, and tag your video library, so you can instantly locate approved content—down to the frame. No bottlenecks. No rework. No guesswork.",
+    title: "Compliant campaigns, everywhere—instantly",
+    subtitle: "From one approved video, reach every channel. cQuenced produces compliant CTV, social, and display variations fast—tagged with the right claims, rights, and disclosures you need for each market.",
     imageSrc: "/generated/image-a-creative-team-in-a-vibrant-studio-spac.webp",
     callsToAction: [
       { href: "/demo", label: "request a demo" }
     ]
   },
   summary: {
-    title: "video search—built for compliance",
+    title: "Multi-channel outputs, synced to your rules",
     text:
       "Manually scrubbing hours of video footage is a waste of time—and a fast path to risk. cQuenced makes your back-catalog searchable with segment-level precision and embedded regulatory context, putting years of approved footage right at your fingertips. Search by claim, keyword, region, safety reference, and more. Then remix or reuse—and send to MLR faster than ever."
   },
