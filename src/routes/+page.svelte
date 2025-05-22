@@ -7,12 +7,13 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import TextOnlyHero from "../lib/components/layout/hero-sections/TextOnlyHero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<TextOnlyHero
+<CenteredTextOnlyHero
   title="Regulated videos, ready in hours—not weeks"
   subtitle="cQuenced turns your video library into new, compliant, cross-channel content in a few clicks. Get to market 50% faster and reduce video production costs by up to 70%."
+  imageSrc="https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 />
 
 <LogoScroller
