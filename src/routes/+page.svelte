@@ -7,16 +7,46 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Fast, compliant video for regulated teams"
+  subtitle="Update and re-release content without the bottlenecks. Cut manual review, speed approvals, and repurpose assets with full confidence."
+  customers={[
+    {
+      name: "Lila Anand",
+      position: "director of marketing operations",
+      imageSrc: "/generated/image-a-south-asian-woman-a-leader-in-pharma-m.webp"
+    },
+    {
+      name: "Jared Kim",
+      position: "VP clinical communications",
+      imageSrc: "/generated/image-an-east-asian-man-a-vp-in-healthcare-com.webp"
+    },
+    {
+      name: "Sonia Robinson",
+      position: "head of compliance content",
+      imageSrc: "/generated/image-a-black-woman-head-of-finance-compliance.webp"
+    },
+    {
+      name: "Gordon Sato",
+      position: "senior brand manager",
+      imageSrc: "/generated/image-a-japanese-man-a-brand-manager-in-insura.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+  label="Trusted by industry leaders"
+  logoUrls={[
+    'https://logo.clearbit.com/pfizer.com',
+    'https://logo.clearbit.com/novartis.com',
+    'https://logo.clearbit.com/prudential.com',
+    'https://logo.clearbit.com/cvshealth.com'
+  ]}
+/>
 
 <Summary
 	generating
