@@ -12,7 +12,7 @@
 
 <CenteredTextOnlyHero
   title="Compliant videos, shipped in hours—not weeks"
-  subtitle="cQuenced transforms your existing video library into compliant, up-to-date content for CTV, social, and display channels. Achieve regulatory approval 50% faster and reduce production costs by up to 70%."
+  subtitle="cQuenced transforms your existing video library into fresh, regulatory-ready content. Approve 50% faster, slash production costs by 70%."
   imageSrc="https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 />
 
@@ -34,7 +34,7 @@
 
 <Summary
   title="What we do"
-  text="cQuenced is an AI-powered platform that transforms existing video content into new, fully compliant, channel-ready assets—cutting approval times by 50 percent and production costs by up to 70 percent. Purpose-built for regulated industries, we help teams update, reuse, and release videos with full compliance and less manual work."
+  text="cQuenced uses AI to quickly turn your existing videos into new, compliance-approved content for regulated industries. Our platform handles regulatory updates automatically, speeding up approvals, cutting costs, and removing manual effort."
 />
 
 <Testimonials
