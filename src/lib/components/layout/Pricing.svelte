@@ -35,136 +35,176 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Pricing for regulated enterprise video",
+		subtitle = "Find the plan that accelerates compliant content for your team",
+		tierNames = ["Starter", "Mid-Tier", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Video campaigns/year",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Starter: "Up to 10",
+					"Mid-Tier": "Up to 30",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "User licenses",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
+					Starter: "3",
+					"Mid-Tier": "10",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Cross-channel outputs",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
+					Starter: "5/month",
+					"Mid-Tier": "Unlimited",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "API access",
+				name: "MLR-ready storyboards",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Starter: true,
+					"Mid-Tier": true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Compliance & audit tagging",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Starter: "Standard",
+					"Mid-Tier": "Advanced",
+					Enterprise: "Advanced + Regulatory-Locked"
+				}
+			},
+			{
+				name: "Automated transcripts & reference metadata",
+				tiers: {
+					Starter: true,
+					"Mid-Tier": true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Archive retention",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Starter: "120-day",
+					"Mid-Tier": "365-day",
+					Enterprise: "Regulatory-locked & versioned (custom)"
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Integrations",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Starter: "Veeva, Aprimo (push/pull)",
+					"Mid-Tier": "Adobe, CRM (Salesforce), Veeva/Aprimo advanced",
+					Enterprise: "Custom, API, all supported systems"
+				}
+			},
+			{
+				name: "Remix automation",
+				tiers: {
+					Starter: false,
+					"Mid-Tier": "Bulk/templated",
+					Enterprise: "Full/custom"
+				}
+			},
+			{
+				name: "Analytics & dashboards",
+				tiers: {
+					Starter: false,
+					"Mid-Tier": "Usage/basic performance",
+					Enterprise: "Full/asset, channel, regulatory insights"
+				}
+			},
+			{
+				name: "Support SLA",
+				tiers: {
+					Starter: "48h email",
+					"Mid-Tier": "12h priority email",
+					Enterprise: "1h email/chat/phone"
 				}
 			},
 			{
 				name: "Dedicated account manager",
 				tiers: {
 					Starter: false,
-					Pro: false,
+					"Mid-Tier": false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Onboarding/training",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Starter: "Guided self-serve",
+					"Mid-Tier": "Onboarding session",
+					Enterprise: "White-glove program"
 				}
 			}
 		],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: null,
+				yearlyPrice: 40000,
+				description: "For focused brand or content teams building a foundation for faster, safer remixing.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Up to 10 campaigns/year",
+					"3 user licenses",
+					"5 cross-channel outputs/month",
+					"MLR-ready storyboards & export kits",
+					"Standard compliance tagging & transcripts",
+					"120-day asset archive",
+					"Veeva, Aprimo (push/pull)",
+					"Email support, 48h SLA",
+					"Guided self-serve onboarding"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Request demo",
+					href: "/contact?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Mid-Tier",
+				monthlyPrice: null,
+				yearlyPrice: 95000,
+				description: "For regional or cross-functional teams managing moderate campaign flow under strict legal or regulatory oversight.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Up to 30 campaigns/year",
+					"10 user licenses, team-role workflows",
+					"Unlimited cross-channel outputs",
+					"Advanced compliance and metadata exports",
+					"Bulk remix, templates, and dashboards",
+					"Adobe & CRM integrations",
+					"Priority email support, 12h SLA",
+					"Onboarding session"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Request demo",
+					href: "/contact?plan=mid-tier"
 				},
 				highlight: true
 			},
 			{
 				name: "Enterprise",
 				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				yearlyPrice: 180000,
+				description: "For enterprise teams handling large archives, multiple brands, and global regulatory layers.",
 				features: [
-					"Everything in Pro",
+					"Unlimited campaigns and users",
+					"Regulatory-locked archives",
+					"Full-cycle logs, audit dashboards",
+					"Custom integrations and automations",
+					"Advanced access control & SSO",
+					"White-glove onboarding program",
 					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Live chat/phone/email support, 1h SLA"
 				],
 				cta: {
 					label: "Contact sales",
-					href: "/contact"
+					href: "/contact?plan=enterprise"
 				}
 			}
 		]
