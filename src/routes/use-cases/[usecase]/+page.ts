@@ -45,9 +45,9 @@ const campaignRemixingUseCase: UseCase = {
     description: "Transform and reuse old campaigns into new, channel-ready content."
   },
   hero: {
-    title: "Your approved videos aren’t done working",
+    title: "Turn yesterday's videos into tomorrow's campaigns",
     subtitle:
-      "Don’t let past campaigns collect dust. cQuenced breaks down approved footage into reusable, compliance-tagged segments—so you can spin up fresh campaigns in days, not weeks. Reduce costs and timelines without re-entering the review queue.",
+      "Remix compliant, reusable segments—without restarting approvals.",
     imageSrc: "/generated/image-a-diverse-group-of-professionals-in-a-mo.webp",
     callsToAction: [
       { href: "/demo", label: "see how it works" }

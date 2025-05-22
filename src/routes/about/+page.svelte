@@ -10,19 +10,27 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Speed and compliance together",
+    description: "We believe regulated teams shouldn’t have to sacrifice speed for safety."
+  },
+  {
+    title: "Make content work harder",
+    description: "Value compounds when you can reuse and update, not just rebuild."
+  },
+  {
+    title: "Clarity (not chaos)",
+    description: "Review processes should be simple, auditable, and collaborative for every stakeholder."
+  },
+  {
+    title: "Technology that fits",
+    description: "Tools should work for people—not create more workarounds."
+  },
+  {
+    title: "Accessible compliance",
+    description: "Producing channel-ready, regulator-ready video shouldn’t be so hard."
+  }
+];
 </script>
 
 <SecondaryHero
@@ -71,7 +79,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="See cQuenced in action"
+  subtitle="For regulated industries and internal teams who need better compliance workflows"
+  description="See how cQuenced transforms your existing video library into fully compliant, channel-ready assets—cutting review cycles by 50% and production costs by up to 70%. No pressure, just a clear look at what’s possible."
+  callsToAction={[{ href: '/demo', label: 'Request demo', variant: 'primary' }]}
 />
