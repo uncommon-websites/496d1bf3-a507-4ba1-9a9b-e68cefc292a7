@@ -203,7 +203,7 @@
 
 <SecondaryHero
     title="Transform how regulated industries communicate"
-    subtitle="Join a high-performing, supportive team building AI that helps healthcare, pharma, and finance create compliant content—faster, together"
+    subtitle="Join us to build technology that gets life-changing content out faster"
     imageSrc="/generated/image-a-bright-modern-office-environment-with-.webp"
 />
 

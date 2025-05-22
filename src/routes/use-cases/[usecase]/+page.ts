@@ -50,7 +50,7 @@ const campaignRemixingUseCase: UseCase = {
       "Remix compliant, reusable segments—without restarting approvals.",
     imageSrc: "/generated/image-a-diverse-group-of-professionals-in-a-mo.webp",
     callsToAction: [
-      { href: "/demo", label: "see how it works" }
+      { href: "/demo", label: "See how it works" }
     ]
   },
   summary: {
@@ -63,47 +63,47 @@ const campaignRemixingUseCase: UseCase = {
       quote:
         "We saved around $70K just on remixing alone—and brought five assets to market in the time it normally takes to clear one.",
       author: "Head of Content Strategy",
-      role: "top 5 global pharma",
+      role: "Top 5 global pharma",
       imageSrc: "/generated/image-a-marketing-team-celebrating-a-successfu.webp"
     },
     {
       quote: "It’s like having a content factory that already knows what legal needs. Seamless output, zero chasing.",
       author: "Global brand lead",
-      role: "health tech firm",
+      role: "Health tech firm",
       imageSrc: "/generated/image-a-brand-leader-in-a-well-lit-office-smil.webp"
     }
   ],
   features: {
-    title: "faster campaigns—without new production",
+    title: "Faster campaigns—without new production",
     subtitle: "AI-powered remixing lets teams do more with legacy video.",
     items: [
       {
-        title: "instant multi-channel output",
+        title: "Instant multi-channel output",
         description: "Turn legacy videos into new assets for streaming, social, display, and in-app in under 24 hours.",
         icon: "rewind"
       },
       {
-        title: "regulatory tagging built in",
+        title: "Regulatory tagging built in",
         description: "Automatically tag compliance claims and fair balance at segment level for review-ready reuse.",
         icon: "tag"
       },
       {
-        title: "mlr-ready audit exports",
+        title: "MLR-ready audit exports",
         description: "Export brand-safe cuts with synchronized audit metadata (MLR-ready).",
         icon: "clipboard-check"
       },
       {
-        title: "version control and recall",
+        title: "Version control and recall",
         description: "Avoid duplicated legal reviews with recall tracking and version control for every edit.",
         icon: "refresh"
       }
     ]
   },
   cta: {
-    title: "turn your back-catalog into your next campaign",
+    title: "Turn your back-catalog into your next campaign",
     subtitle:
       "Explore how cQuenced reinvents high-value assets across every channel—faster and fully compliant.",
-    imageSrc: "/generated/image-a-diverse-group-of-professionals-in-a-mo.webp",
+    imageSrc: "/generated/image-a-happy-professional-in-a-pharmaceutical.webp",
     description: "See remixing in action—no reshoots, no compliance headaches.",
     callsToAction: [
       { href: "/demo", label: "see how it works", variant: "primary" }
@@ -117,12 +117,12 @@ const safetyUpdatesUseCase: UseCase = {
     description: "Apply global label, risk or disclosure changes across all video instantly."
   },
   hero: {
-    title: "Automate compliance. Accelerate approvals.",
+    title: "Compliance made automatic. Approvals made easy.",
     subtitle:
-      "Legal hurdles shouldn’t stall a market launch. With segment-level compliance tagging and auto-generated audit trails, cQuenced keeps your MLR workflow moving—automatically.",
+      "We auto-tag compliance and builds instant audit trails—accelerating your MLR reviews.",
     imageSrc: "/generated/image-an-attentive-compliance-officer-in-a-cor.webp",
     callsToAction: [
-      { href: "/demo", label: "schedule a demo" }
+      { href: "/demo", label: "Schedule a demo" }
     ]
   },
   summary: {
@@ -146,116 +146,41 @@ const safetyUpdatesUseCase: UseCase = {
     }
   ],
   features: {
-    title: "a single change. reflected everywhere.",
+    title: "A single change. Reflected everywhere.",
     subtitle: "Track, update and push global safety edits without touching your timeline or risking compliance violations.",
     items: [
       {
-        title: "segment-aware video mapping",
+        title: "Segment-aware video mapping",
         description: "Map every instance of a product, claim, or risk phrase across all campaign content in seconds—right down to the asset, timestamp, and usage context.",
         icon: "map"
       },
       {
-        title: "automated compliance overlays",
+        title: "Automated compliance overlays",
         description: "Apply approved safety language, disclaimers, and fair balance visuals in real-time using template-driven insertion rules tied to your brand requirements.",
         icon: "layers"
       },
       {
-        title: "one-click multi-market versioning",
+        title: "One-click multi-market versioning",
         description: "Push localized and multilingual safety updates across variants and channels instantly—without duplicating effort for every downstream output.",
         icon: "globe"
       },
       {
-        title: "always audit-ready exports",
+        title: "Always audit-ready exports",
         description: "Generate traceable audit logs, storyboards and source comparisons for every update made—ready for compliant packaging into your MLR or regulatory toolset.",
         icon: "document"
       }
     ]
   },
   cta: {
-    title: "ready to move fast and stay safe?",
+    title: "Ready to move fast and stay safe?",
     subtitle:
       "See how cQuenced lets your compliance and brand teams update safety-critical video content instantly—at scale.",
     imageSrc: "/generated/image-an-attentive-compliance-officer-in-a-cor.webp",
-    description: "schedule a demo to see the fastest safety updates you’ve ever seen.",
+    description: "Schedule a demo to see the fastest safety updates you’ve ever seen.",
     callsToAction: [
-      { href: "/demo", label: "schedule a demo", variant: "primary" }
+      { href: "/demo", label: "Schedule a demo", variant: "primary" }
     ]
   }
-};
-
-const financeUseCase: UseCase = {
-	meta: {
-		title: "Finance",
-		description: "Financial solutions for institutions and businesses"
-	},
-	hero: {
-		title: "Financial Intelligence Platform",
-		subtitle: "Empowering financial decisions with data-driven insights",
-		imageSrc:
-			"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		callsToAction: [
-			{ href: "/demo", label: "Get Started" },
-			{ href: "#features", label: "Learn More" }
-		]
-	},
-	summary: {
-		title: "Revolutionizing Financial Services",
-		text: "Our platform enables financial institutions to enhance customer experiences, automate compliance processes, and leverage AI for better risk assessment and investment strategies."
-	},
-	testimonials: [
-		{
-			quote:
-				"This platform has transformed our risk management approach and increased our efficiency by 50%.",
-			author: "James Wilson",
-			role: "CTO, Global Investments",
-			imageSrc: "/images/testimonials/james-wilson.jpg"
-		},
-		{
-			quote: "The predictive analytics have given us a competitive edge in market analysis.",
-			author: "Linda Chang",
-			role: "Head of Trading, Apex Capital",
-			imageSrc: "/images/testimonials/linda-chang.jpg"
-		}
-	],
-	features: {
-		title: "Powerful Financial Tools",
-		subtitle: "Comprehensive solutions for modern financial challenges",
-		items: [
-			{
-				title: "Risk Assessment",
-				description: "Advanced analytics to identify and mitigate potential risks",
-				icon: "chart-line"
-			},
-			{
-				title: "Fraud Detection",
-				description: "AI-powered systems to detect unusual patterns and prevent fraud",
-				icon: "shield-alert"
-			},
-			{
-				title: "Investment Analysis",
-				description: "Data-driven insights for portfolio management and optimization",
-				icon: "presentation-chart"
-			},
-			{
-				title: "Regulatory Compliance",
-				description: "Automated tools to ensure adherence to financial regulations",
-				icon: "document-check"
-			}
-		]
-	},
-
-	cta: {
-		title: "Transform Your Financial Services",
-		subtitle: "Join leading financial institutions already using our platform",
-		imageSrc:
-			"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		description:
-			"Schedule a demo to see how we can help you improve efficiency and customer satisfaction.",
-		callsToAction: [
-			{ href: "/demo", label: "Request Demo", variant: "primary" },
-			{ href: "/pricing", label: "View Solutions", variant: "secondary" }
-		]
-	}
 };
 
 const segmentSearchUseCase: UseCase = {
@@ -265,10 +190,10 @@ const segmentSearchUseCase: UseCase = {
   },
   hero: {
     title: "Compliant campaigns, everywhere—instantly",
-    subtitle: "From one approved video, reach every channel. cQuenced produces compliant CTV, social, and display variations fast—tagged with the right claims, rights, and disclosures you need for each market.",
+    subtitle: "We instantly create compliant variations for CTV, social, and display from a single approved asset.",
     imageSrc: "/generated/image-a-creative-team-in-a-vibrant-studio-spac.webp",
     callsToAction: [
-      { href: "/demo", label: "request a demo" }
+      { href: "/demo", label: "Request a demo" }
     ]
   },
   summary: {
@@ -281,50 +206,50 @@ const segmentSearchUseCase: UseCase = {
       quote:
         "What used to take a full day now takes under 30 minutes. This changes how we reuse regulatory-approved assets across teams.",
       author: "Senior Director, Commercial Operations",
-      role: "top 10 pharma",
+      role: "Top 10 pharma",
       imageSrc: "/generated/image-an-operations-director-seated-at-a-moder.webp"
     },
     {
       quote: "Being able to search by claim or brand name—and know the compliance info is baked in—saves days in review.",
       author: "VP of Marketing Compliance",
-      role: "global health service provider",
+      role: "Global health service provider",
       imageSrc: "/generated/image-a-compliance-marketing-vp-in-a-neutral-c.webp"
     }
   ],
   features: {
-    title: "search smarter. reuse faster.",
+    title: "Search smarter. Reuse faster.",
     subtitle: "Explore, extract, and reassemble high-impact stories with AI-guided confidence—without restarting your regulatory review.",
     items: [
       {
-        title: "segment-level search and tagging",
+        title: "Segment-level search and tagging",
         description: "Use natural language to search your full video archive. Find exact scenes by product name, topic, region, or even spoken claim.",
         icon: "search"
       },
       {
-        title: "embedded compliance metadata",
+        title: "Embedded compliance metadata",
         description: "Each segment comes with synced compliance markers—so you carry over approvals and disclosures every time you remix.",
         icon: "shield-check"
       },
       {
-        title: "auto-generated storyboards and audit trails",
+        title: "Auto-generated storyboards and audit trails",
         description: "Export what regulators want to see—side-by-side before/after visuals and transcripts with compliance annotations included.",
         icon: "clipboard-document"
       },
       {
-        title: "instant cross-channel remixing",
+        title: "Instant cross-channel remixing",
         description: "Need a social version? A new regional cut? Create in-context edits optimized for each channel and reviewer.",
         icon: "layers"
       }
     ]
   },
   cta: {
-    title: "see how search turns into speed",
+    title: "See how search turns into speed",
     subtitle:
       "Learn how your team can reclaim hours and reduce MLR load by making your video content truly searchable—with compliance clarity built in.",
     imageSrc: "/generated/image-a-creative-team-in-a-vibrant-studio-spac.webp",
     description: "Let’s make your video backlog an instant asset—request a walkthrough.",
     callsToAction: [
-      { href: "/demo", label: "request a demo", variant: "primary" }
+      { href: "/demo", label: "Request a demo", variant: "primary" }
     ]
   }
 };

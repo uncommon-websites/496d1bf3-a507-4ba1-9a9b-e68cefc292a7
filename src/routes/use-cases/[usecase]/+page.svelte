@@ -23,7 +23,7 @@
 
 <Summary title={data.summary.title} text={data.summary.text} />
 
-<Testimonials testimonials={data.testimonials} />
+<!-- <Testimonials testimonials={data.testimonials} /> -->
 
 <Features
 	title={data.features.title}

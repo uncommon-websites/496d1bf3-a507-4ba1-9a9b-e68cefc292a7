@@ -8,12 +8,21 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+  import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
 </script>
 
-<CenteredTextOnlyHero
+<!-- <CenteredTextOnlyHero
   title="Compliant videos, shipped in hours—not weeks"
   subtitle="cQuenced transforms your existing video library into fresh, regulatory-ready content. Approve 50% faster, slash production costs by 70%."
   imageSrc="https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+/> -->
+
+<Hero
+ title="Compliant videos, shipped in hours—not weeks"
+  subtitle="cQuenced transforms your existing video library into fresh, regulatory-ready content. Approve 50% faster, slash production costs by 70%."
+  imageSrc="/generated/hero.gif"
+	centered={true}
 />
 
 <LogoScroller

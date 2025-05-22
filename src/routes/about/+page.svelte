@@ -10,27 +10,19 @@
 
 	// Constants
 	const values = [
-  {
-    title: "Speed and compliance together",
-    description: "We believe regulated teams shouldn’t have to sacrifice speed for safety."
-  },
-  {
-    title: "Make content work harder",
-    description: "Value compounds when you can reuse and update, not just rebuild."
-  },
-  {
-    title: "Clarity (not chaos)",
-    description: "Review processes should be simple, auditable, and collaborative for every stakeholder."
-  },
-  {
-    title: "Technology that fits",
-    description: "Tools should work for people—not create more workarounds."
-  },
-  {
-    title: "Accessible compliance",
-    description: "Producing channel-ready, regulator-ready video shouldn’t be so hard."
-  }
-];
+		{
+			title: "Innovation",
+			description: "Constantly challenging the status quo to create better solutions."
+		},
+		{
+			title: "Integrity",
+			description: "Building trust through transparent actions and honest communication."
+		},
+		{
+			title: "Impact",
+			description: "Measuring our success by the positive change we create for our clients."
+		}
+	];
 </script>
 
 <SecondaryHero
@@ -43,11 +35,12 @@
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
-	]}
+  "We founded cQuenced because critical information shouldn't be delayed by red tape. In industries that save lives, protect health, and manage wealth, every second counts—and every message matters.",
+  "Our mission is simple but powerful: remove barriers, eliminate delays, and empower teams in regulated markets to deliver compliant content instantly. We believe compliance shouldn't slow innovation; it should fuel it.",
+  "From day one, we've stood by one guiding principle: impactful messages should never be held back by process. Our technology isn't just about faster videos—it's about faster breakthroughs, quicker patient support, smarter financial choices, and safer communities.",
+  "At cQuenced, we're driven by the urgency of real impact. Because when critical content reaches people faster, it doesn't just improve campaigns—it improves lives."
+]}
+
 />
 
 <!-- Our Culture Section -->
@@ -79,8 +72,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-  title="See cQuenced in action"
-  subtitle="For regulated industries and internal teams who need better compliance workflows"
-  description="See how cQuenced transforms your existing video library into fully compliant, channel-ready assets—cutting review cycles by 50% and production costs by up to 70%. No pressure, just a clear look at what’s possible."
-  callsToAction={[{ href: '/demo', label: 'Request demo', variant: 'primary' }]}
+	title="Ready to collaborate?"
+	subtitle="Let's create something amazing"
+	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
 />
