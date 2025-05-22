@@ -50,11 +50,13 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
+		title = "What’s next?", 
+		subtitle = "See compliant video in action, partner with us, or join the team.",
+		description = "If you’re facing MLR review bottlenecks or struggling to keep video content compliant across channels, cQuenced can help. Our AI-powered platform transforms your existing video library into fully compliant, repurposed assets—cutting approval time in half and slashing production costs by up to 70 percent.\n\nFor enterprise buyers: See how cQuenced speeds up MLR review, simplifies compliance tracking, and helps you get more value from every video campaign. For partners: We’re collaborating with agency, creative, and tech teams to build smarter workflows for regulated industries. For future team members: Join us to help solve one of the most overlooked problems in compliant content production—and shape the future of video reuse in regulated markets.", 
 		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		callsToAction = [
+  { href: '/demo', label: 'See compliance in action', variant: 'primary' },
+],
 		...rest
 	}: {
 		title?: string;

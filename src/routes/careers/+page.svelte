@@ -121,53 +121,64 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Eric Chen",
+    position: "Software Engineer",
+    company: "Engineering",
+    quote:
+      "I joined right out of college and felt guided from day one. My teammates are always willing to help and I get the chance to learn from real projects every week.",
+    image: "/generated/image-a-young-east-asian-man-wearing-a-casual-.webp"
+  },
+  {
+    name: "Anjali Patel",
+    position: "Product Manager",
+    company: "Product",
+    quote:
+      "At cQuenced, you really do get to own your work. My ideas are taken seriously here and I always know support is just a message away. Growth is real and so is the trust.",
+    image: "/generated/image-a-south-asian-woman-dressed-in-smart-cas.webp"
+  },
+  {
+    name: "David Thompson",
+    position: "VP, Operations",
+    company: "Leadership",
+    quote:
+      "This team is full of energy and ideas, but what stands out most is the respect everyone has for each other. We celebrate wins together and leave plenty of room to learn from mistakes.",
+    image: "/generated/image-a-middle-aged-black-man-dressed-in-busin.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Quick application",
+    description:
+      "Apply online with your resume or LinkedIn profile. No need for a cover letter."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description:
+      "A short call to get to know you, share more about cQuenced, and explore mutual fit."
+  },
+  {
+    step: 3,
+    title: "Skills deep-dive",
+    description:
+      "A practical case, technical challenge, or creative walkthrough—tailored to the position."
+  },
+  {
+    step: 4,
+    title: "Final chat with founders",
+    description:
+      "Meet the founders to discuss team culture, working style, and long-term vision."
+  },
+  {
+    step: 5,
+    title: "Reference check & offer",
+    description:
+      "We run reference calls and send any offer promptly. Personalized communication every step."
+  }
+];
 
 	const values = [
 		{
@@ -191,19 +202,37 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+    title="Transform how regulated industries communicate"
+    subtitle="Join a high-performing, supportive team building AI that helps healthcare, pharma, and finance create compliant content—faster, together"
+    imageSrc="/generated/image-a-bright-modern-office-environment-with-.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Work at the forefront of AI, compliance, and video transformation" />
 
-	<div class="mt-16 grid gap-4 md:grid-cols-3">
-		{#each benefits as benefit}
-			<Card {...benefit} />
-		{/each}
-	</div>
+<ul class="mt-16 grid gap-8 md:grid-cols-2 list-none">
+  <li class="text-body">
+    <strong>Be part of a real platform shift.</strong><br />
+    We're solving one of the biggest hidden blockers in regulated go-to-market execution—content reuse at scale.
+  </li>
+  <li class="text-body">
+    <strong>Build alongside pioneers.</strong><br />
+    Work with a team that's already collaborating with leading brands like Pfizer and shaping the future of compliant media.
+  </li>
+  <li class="text-body">
+    <strong>Make a tangible impact.</strong><br />
+    Every solution you build saves teams months of delay, and unlocks creative work previously stuck in review queues.
+  </li>
+  <li class="text-body">
+    <strong>Accelerate your growth.</strong><br />
+    Early team members help shape product, culture, and outcomes—with strong ownership, real learning, and enterprise SaaS scale.
+  </li>
+  <li class="text-body">
+    <strong>Competitive rewards.</strong><br />
+    Comprehensive health benefits, flexible remote work, continuous learning stipends, and the upside of joining early.
+  </li>
+</ul>
 </section>
 
 <!-- Culture Section -->

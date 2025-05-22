@@ -10,7 +10,7 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values }: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 
@@ -38,7 +38,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="How we work." subtitle="Accountability. Practical creativity. Team-first execution." />
 
 		<div
 			class="grid gap-(--gap)"

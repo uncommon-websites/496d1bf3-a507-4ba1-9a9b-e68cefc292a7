@@ -7,149 +7,140 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import TextOnlyHero from "../lib/components/layout/hero-sections/TextOnlyHero.svelte";
 </script>
 
-<CustomerCardHero
-  centered={false}
-  title="Fast, compliant video for regulated teams"
-  subtitle="Update and re-release content without the bottlenecks. Cut manual review, speed approvals, and repurpose assets with full confidence."
-  customers={[
-    {
-      name: "Lila Anand",
-      position: "director of marketing operations",
-      imageSrc: "/generated/image-a-south-asian-woman-a-leader-in-pharma-m.webp"
-    },
-    {
-      name: "Jared Kim",
-      position: "VP clinical communications",
-      imageSrc: "/generated/image-an-east-asian-man-a-vp-in-healthcare-com.webp"
-    },
-    {
-      name: "Sonia Robinson",
-      position: "head of compliance content",
-      imageSrc: "/generated/image-a-black-woman-head-of-finance-compliance.webp"
-    },
-    {
-      name: "Gordon Sato",
-      position: "senior brand manager",
-      imageSrc: "/generated/image-a-japanese-man-a-brand-manager-in-insura.webp"
-    }
-  ]}
+<TextOnlyHero
+  title="Regulated videos, ready in hours—not weeks"
+  subtitle="cQuenced turns your video library into new, compliant, cross-channel content in a few clicks. Get to market 50% faster and reduce video production costs by up to 70%."
 />
 
 <LogoScroller
   label="Trusted by industry leaders"
   logoUrls={[
-    'https://logo.clearbit.com/pfizer.com',
-    'https://logo.clearbit.com/novartis.com',
-    'https://logo.clearbit.com/prudential.com',
-    'https://logo.clearbit.com/cvshealth.com'
+    'https://cdn.brandfetch.io/pfizer.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/novartis.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/jnj.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/merck.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/sanofi.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/roche.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/gsk.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/astrazeneca.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/amgen.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7',
+    'https://cdn.brandfetch.io/bms.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7'
   ]}
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+  title="What we do"
+  text="cQuenced is an AI-powered platform that transforms existing video content into new, fully compliant, channel-ready assets—cutting approval times by 50 percent and production costs by up to 70 percent. Purpose-built for regulated industries, we help teams update, reuse, and release videos with full compliance and less manual work."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Mira Langston",
+			position: "Director of Brand Marketing",
+			company: "Therabake Pharma",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Before cQuenced, even minor edits triggered a two-week review cycle. Now we turn fully compliant campaign updates in two days. We’ve cut approval timelines in half—without adding headcount.",
+			image: "/generated/image-a-female-pharmaceutical-executive-in-a-m.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Reza Kim",
+			position: "Head of Regulatory Affairs",
+			company: "AlignMedical Health",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"All segments are compliance-tagged and audit-tracked from the start, so our MLR reviews move faster and fewer assets get kicked back. Risk went down, but our confidence went way up.",
+			image: "/generated/image-a-male-fintech-compliance-manager-in-a-f.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Bela Mendoza",
+			position: "VP, Global Performance Marketing",
+			company: "EquiaBank",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We used to spend over $120K per campaign on net-new creative. Now we reuse and adapt what we already have—with matched channel specs and approvals baked in. Last quarter alone, we saved $65K.",
+			image: "/generated/image-a-female-healthcare-marketing-director-i.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="Purpose-built for compliance-first video transformation"
+  subtitle="Everything enterprise teams need to reclaim content and reduce risk."
+  features={[
+    {
+      title: "Modular AI video editing",
+      description: "Turn long-form video into reusable, channel-ready clips with automatic segmentation for fast updates and strict trackability."
+    },
+    {
+      title: "Full regulatory audit trails",
+      description: "Every edit is tagged with compliance metadata for each segment—helping teams update, review, and approve assets with confidence."
+    },
+    {
+      title: "Channel-ready output in two clicks",
+      description: "Instantly generate compliant versions for CTV, social, and display, with synchronized claims and disclosures."
+    },
+    {
+      title: "Integrations for how you work",
+      description: "Connect with Veeva Vault, Adobe, Aprimo and CRMs to publish remixed videos automatically to your current review and asset systems."
+    },
+    {
+      title: "Faster approvals, lower costs",
+      description: "Cut review cycles by up to 50% and reduce production spend by up to 70% with every campaign."
+    },
+    {
+      title: "Enterprise-grade security",
+      description: "Meet every compliance, privacy, and audit requirement for pharma, healthcare, finance, and insurance workflows."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Campaign remixing",
+      description: "Rebuild old campaigns with fresh messaging, regional disclosures, and new media briefs—without re-filming.",
+      image: "/generated/image-a-diverse-group-of-professionals-in-a-mo.webp",
+      link: {
+        href: "/use-cases/campaign-remixing",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Safety updates",
+      description: "Roll out global clinical or risk language changes across hundreds of assets in just two clicks.",
+      image: "/generated/image-an-attentive-compliance-officer-in-a-cor.webp",
+      link: {
+        href: "/use-cases/safety-updates",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Segment search",
+      description: "Find usable, compliant clips by storyline, claim, or imagery. Save hours in review.",
+      image: "/generated/image-a-creative-team-in-a-vibrant-studio-spac.webp",
+      link: {
+        href: "/use-cases/segment-search",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Reimagine compliant video workflows"
+  subtitle="Book a demo—see faster compliance in action"
+  description="Turn your back-catalog of video into fully compliant, channel-ready content. Cut production costs by up to 70% and approval cycles by 50%. Purpose-built for pharmaceutical, healthcare, finance, and insurance teams."
+  imageSrc="/generated/image-a-happy-professional-in-a-pharmaceutical.webp"
+  callsToAction={[
+    {
+      href: "/contact",
+      label: "Book a demo",
+      variant: "primary"
+    }
+  ]}
+/>

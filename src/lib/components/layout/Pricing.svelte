@@ -35,10 +35,83 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Enterprise pricing for regulated industries",
+		subtitle = "Transparent plans for compliant video transformation",
+		tierNames = ["Starter", "Professional", "Enterprise"],
 		features = [
+	{
+		name: "Remixed video campaigns",
+		tiers: {
+			Starter: "Up to 10",
+			Professional: "Up to 25",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Export channels (display, CTV, social, etc.)",
+		tiers: {
+			Starter: "3",
+			Professional: "6",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Users included",
+		tiers: {
+			Starter: "Shared access",
+			Professional: "Named users",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Segment-level compliance tagging",
+		tiers: {
+			Starter: true,
+			Professional: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Global safety update automation",
+		tiers: {
+			Starter: false,
+			Professional: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Integration with Veeva, Aprimo, Adobe",
+		tiers: {
+			Starter: false,
+			Professional: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Audit trails and storyboard export",
+		tiers: {
+			Starter: "Basic",
+			Professional: "Automated",
+			Enterprise: "Automated with custom workflows"
+		}
+	},
+	{
+		name: "Support response time",
+		tiers: {
+			Starter: "Business hours email",
+			Professional: "Priority email + chat",
+			Enterprise: "Dedicated SLA, 24/5"
+		}
+	},
+	{
+		name: "Onboarding & training",
+		tiers: {
+			Starter: "Standard setup guide",
+			Professional: "Assisted onboarding",
+			Enterprise: "White-glove onboarding, staff training"
+		}
+	},
+
 			{
 				name: "Projects",
 				tiers: {
@@ -113,60 +186,63 @@ Please update features according to the company's product offering. Do not remov
 			}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
-			}
+	{
+		name: "Starter",
+		monthlyPrice: null,
+		yearlyPrice: 40000,
+		description: "For teams ready to pilot content transformation with compliance built in.",
+		features: [
+			"Up to 10 remixed video campaigns",
+			"3 export channels included",
+			"Shared user access",
+			"Export-ready MLR overview decks",
+			"Basic transcript tagging and manual compliance assist",
+			"Email support during business hours"
+		],
+		cta: {
+			label: "Get started",
+			href: "/contact?plan=starter"
+		}
+	},
+	{
+		name: "Professional",
+		monthlyPrice: null,
+		yearlyPrice: 95000,
+		description: "For customer-facing teams managing frequent updates across brands or geographies.",
+		features: [
+			"Up to 25 remixed campaigns, 6 export channels",
+			"Advanced safety update rules across videos",
+			"Priority asset search and segment recognition",
+			"Named user access and saved content profiles",
+			"Audit trail automation and MLR storyboard generation",
+			"Priority email + chat support"
+		],
+		cta: {
+			label: "Request demo",
+			href: "/contact?plan=professional"
+		},
+		highlight: true
+	},
+	{
+		name: "Enterprise",
+		monthlyPrice: null,
+		yearlyPrice: 180000,
+		description: "For global or regional brands with high-volume reuse and advanced regulatory needs.",
+		features: [
+			"Unlimited campaigns, users, and export destinations",
+			"Full integration with Veeva Vault, Aprimo, Adobe Creative Cloud",
+			"Smart versioning: auto-tracked changes and global compliance settings",
+			"White-glove onboarding, staff training, and sandbox setup",
+			"Dedicated customer success + 24/5 SLA support",
+			"Custom workflows for regulatory and legal teams"
+		],
+		cta: {
+			label: "Contact sales",
+			href: "/contact?plan=enterprise"
+		}
+	},
+
+			
 		]
 	}: {
 		title?: string;

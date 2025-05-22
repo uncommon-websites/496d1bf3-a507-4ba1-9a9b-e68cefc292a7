@@ -122,7 +122,7 @@
 			{#each stakeholders as member, index}
 				{@render card(member, index)}
 			{/each}
-
+<!-- 
 			{#if stakeholderType === "team"}
 				{@render card(
 					{
@@ -132,7 +132,7 @@
 					},
 					stakeholders.length
 				)}
-			{/if}
+			{/if} -->
 		</div>
 	</div>
 </section>
