@@ -21,7 +21,7 @@
 <Hero
  title="Compliant videos, shipped in hours—not weeks"
   subtitle="cQuenced transforms your existing video library into fresh, regulatory-ready content. Approve 50% faster, slash production costs by 70%."
-  imageSrc="/generated/hero.gif"
+  imageSrc="/generated/image-a-professional-german-businessman-in-a-s.webp"
 	centered={true}
 />
 
